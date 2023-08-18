@@ -1,0 +1,8 @@
+# values.yaml
+promtail:
+  enabled: true
+  prometheusScrapeConfigs:
+    - job_name: promtail
+      static_configs:
+        - targets:
+            - "prometheus-server:9090"

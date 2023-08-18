@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Simple \"Hello World\" node.js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello world\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "swagger-stats": "^0.99.7"
+  }
+}
